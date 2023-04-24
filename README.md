@@ -79,7 +79,7 @@ TELEGRAM_TOKEN # Токен бота
 
 ![example workflow](https://github.com/ValentinGorovenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-## Авторы 
+## Авторы
 Данилова Марина - https://github.com/maridana
 
 Личинин Виталий - https://github.com/Lichinin
