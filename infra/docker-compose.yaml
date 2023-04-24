@@ -15,6 +15,7 @@ services:
       - ./.env
 
   web:
+    build: ../api_yamdb/
     image: valentinvalter/api_yamdb:v1.0
     restart: always
     volumes:
