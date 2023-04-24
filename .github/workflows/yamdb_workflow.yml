@@ -44,7 +44,7 @@ jobs:
           uses: docker/build-push-action@v2 
           with:
             push: true
-            tags: valentinvalter/api_yamdb:latest
+            tags: valentinvalter/api_yamdb:v1.0
 
   deploy:
     runs-on: ubuntu-latest
