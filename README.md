@@ -35,20 +35,20 @@ POST /api/v1/titles/{title_id}/reviews/{review_id}/comments/
 Выполните копирование файла командой:
 cp infra/.env.template infra/.env 
 
-Из папки infra/ соберите образ при помощи docker-compose
-docker-compose up -d --build
+Из папки infra/ соберите образ при помощи docker compose
+docker compose up -d --build
 
 Примените миграции
-docker-compose exec web python manage.py migrate
+docker compose exec web python manage.py migrate
 
 Соберите статику
-docker-compose exec web python manage.py collectstatic --no-input
+docker compose exec web python manage.py collectstatic --no-input
 
 Для доступа к админке не забудьте создать суперюзера
-docker-compose exec web python manage.py createsuperuser
+docker compose exec web python manage.py createsuperuser
 
 Заполнение базы данными
-docker-compose exec web python manage.py loaddata fixtures.json 
+docker compose exec web python manage.py loaddata fixtures.json 
 
 ## Деплой на удаленный сервер
 Для запуска проекта на удаленном сервере необходимо:
