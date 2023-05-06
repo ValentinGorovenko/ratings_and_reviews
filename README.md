@@ -79,6 +79,10 @@ TELEGRAM_TOKEN # Токен бота
 
 ![example workflow](https://github.com/ValentinGorovenko/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+## адреса сервера
+
+http://158.160.103.103
+
 ## Авторы
 Данилова Марина - https://github.com/maridana
 
